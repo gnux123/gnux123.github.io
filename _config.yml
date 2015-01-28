@@ -13,17 +13,10 @@ color:
   secondary-dark: 333
 
 # Team names, titles and social links
-people:
-- name: Kay Garland
+contests:
+- name: Coscup年會
   pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  des: 從2010年到2013年每屆的coscup都有參加。
 
 - name: Larry Parker
   pic: 2
