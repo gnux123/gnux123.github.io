@@ -7,5 +7,7 @@ $primary: #fed136;
 $secondary: #fec503;  
 $secondary-dark: #333333;
 
+@import "_mixin";
+
 @import "bootstrap.min";
 @import "agency";
