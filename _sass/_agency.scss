@@ -273,29 +273,36 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    .intro-text {
+        padding-top: 100px;
+        padding-bottom: 50px;
+
+        & > .intro-heading,
+        & > .intro-lead-in {
+            margin-bottom: 25px;            
+        } 
+
+        & > .intro-heading {
+            text-transform: uppercase;
+            font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 50px;
+        }
+
+        & > .intro-lead-in {
+            font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+            font-size: 22px;
+            font-style: italic;
+            line-height: 22px;
+        }     
+    }
+
 }
 
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
 
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
-}
 
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
-}
 
 @media(min-width:768px) {
     header {
@@ -308,9 +315,10 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
-        font-style: italic;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        font-style:normal;
         line-height: 40px;
     }
 
