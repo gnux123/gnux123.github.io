@@ -14,45 +14,34 @@ color:
 
 # Team names, titles and social links
 contests:
-- name: Coscup年會
-  pic: 1
+- name: Coscup年會(2010-2012)
+  pic: coscup
   des: 從2010年到2013年每屆的coscup都有參加。
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+- name: webconf年會(2013)
+  pic: webconf
+  des: 透過webConf活動，增進及了解最新前端技術。
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+- name: Yahoo!Open Hack(2012-2013)
+  pic: yahooHack
+  des: 從2012年到2013年連續參加兩年的yahoo open hack day，透過這樣的比賽可以讓自己的技術更加磨練。
+
+- name: HPX每月大聚及小講座
+  pic: hpx
+  des: 透過參與這些大小講座累積相關UI/UX資訊，並將這些資訊轉化並應用在相關工作上面。
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: linkedin
+    url: http://tw.linkedin.com/pub/vincent-su/73/861/587/en
+  - title: envelope
+    url: gnux123@gmail.com
+  - title: pinterest
+    url: https://www.pinterest.com/gnux123/
   - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: http://bitbucket.org/gnux123
   - title: github
-    url: http://github.com/jekyll
-
+    url: http://github.com/gnux123
 # Postal address (add as many lines as necessary)
 address:
   - line: 3481 Melrose Place
