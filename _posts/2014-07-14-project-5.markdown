@@ -1,15 +1,15 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: 樂購森活APP UI設計
+subtitle: 電視購物與手機間的互動應用APP
 layout: default
 modal-id: 5
-date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+date: 2014-08-16
+img: appui.png
+thumbnail: appui-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+project-date: 2014/08
+website: http://goo.gl/gG82e5
+client: www.u-mall.tv
+category: APPUI-Design
+description: 以UCD設計方式，透過使用者訪談及目標族群測試，並持續精進及修改，最後完成符合使用者經驗的APP介面設計部分，目前此款APP的業績以破百萬。
 ---

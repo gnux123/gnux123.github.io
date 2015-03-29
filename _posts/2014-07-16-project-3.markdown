@@ -1,15 +1,15 @@
 ---
-title: Golden
-subtitle: Website Design
+title: funkDesinger 線上導覽
+subtitle: 即時線上導覽WebAPP
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+date: 2015-03-21
+img: funkguide.png
+thumbnail: funkguide-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+project-date: 2013/08
+website: http://www.funk.url.tw/funk_lottery/index.php
+client: funkDesinger
+category: WebDesign
+description: 在展覽的同時，可透過現場QRCode掃描，進行即時線上導覽，線上導覽webAPP部分採用了jQuery串接Xml及CSS設計部分來完成。
 ---

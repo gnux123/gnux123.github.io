@@ -1,15 +1,16 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: funkDesigner專屬活動
+subtitle: 折價券抽獎活動頁面
 layout: default
 modal-id: 4
-date: 2014-07-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+date: 2015-03-21
+img: funkLottery.png
+thumbnail: funkLottery-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+project-date: 2012/02
+website: http://www.funk.url.tw/funk_lottery
+client: funkDesinger
+category: Web developer
+description: 利用PHP+MySQL透過ezShop發送折價券在與ezShop資料庫串接作抽獎活動。
 
 ---
