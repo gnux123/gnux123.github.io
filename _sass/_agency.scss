@@ -4,14 +4,43 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,"cwTeXHei",sans-serif;
     color: $secondary-dark;
 }
 
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: $primary;
+}
+
+
+/*黑體*/
+@font-face {
+    font-family: 'cwTeXHei';
+    font-style: normal;
+    src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot);
+    src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot?#iefix) format('embedded-opentype'),
+         url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf) format('truetype');
+
+}
+
+
+
 .text-muted {
     color: #777;
+    @include fontSize(22px);
+    letter-spacing: 1px;
 }
 
 .text-primary {
@@ -175,10 +204,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
-.navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: $primary;
-}
+// .navbar-default .navbar-brand {
+//     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+//     color: $primary;
+// }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
