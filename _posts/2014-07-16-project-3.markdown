@@ -8,7 +8,7 @@ img: funkguide.png
 thumbnail: funkguide-thumbnail.png
 alt: image-alt
 project-date: 2013/08
-website: http://www.funk.url.tw/funk_lottery/index.php
+website: http://www.funk.url.tw/bingo/guide.html
 client: funkDesinger
 category: WebDesign
 description: 在展覽的同時，可透過現場QRCode掃描，進行即時線上導覽，線上導覽webAPP部分採用了jQuery串接Xml及CSS設計部分來完成。
