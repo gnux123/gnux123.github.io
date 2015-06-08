@@ -8,7 +8,7 @@ img: etShop.png
 thumbnail: etShop-thumbnail.png
 alt: image-alt
 project-date: 2015/03
-website: http://www.u-mall.tv/et_shop/prodpage.html
+website: http://gnux123.github.io/shopCart_etuse/prodPage.html
 client: www.u-mall.tv
 category: webDesign
 description: 利用9個工作天設計購物車及訂單查詢介面，應用了RWD Framework以及webfont Icons，並且應用了jQuery、SCSS CSS3等相關應用來設計完成介面。
