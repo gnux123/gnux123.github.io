@@ -1,0 +1,49 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html class=no-js><!--<![endif]--><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><title>樂購森活-轉址中...</title><meta name=description content=""><meta name=viewport content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui"><!-- Place favicon.ico and apple-touch-icon.png in the root directory --><link rel=stylesheet href=styles/13d3ffc9.main.css><script src=bower_components/modernizr/modernizr.js></script><script src=scripts/vendor.js></script><!-- device 自動轉址 start --><script type=text/javascript>delay_log();
+function log() {	
+
+
+    var pc=true;
+
+	if (navigator.userAgent.match(/Android/i)) pc=false;
+	if (navigator.userAgent.match(/iPhone|ipod/i)) pc=false;
+	if (navigator.userAgent.match(/iPad/i)) pc=false;
+
+	if(!pc){
+	    var infomsg = document.getElementById("redirect");
+		infomsg.style.display = "block";
+	}
+
+	setTimeout(function(){
+
+		var android = false, ipad = false, iphone = false;
+
+		if (navigator.userAgent.match(/Android/i)) android = true;
+		if (navigator.userAgent.match(/iPhone|ipod/i)) iphone = true;
+		if (navigator.userAgent.match(/iPad/i)) ipad = true;
+
+	    document.getElementById("redirect").style.display='none';
+
+		if (android) window.location = "http://goo.gl/5VgkcU";
+		if (iphone || ipad) window.location = "http://goo.gl/gG82e5";
+	},1000);
+}
+
+function delay_log(){ var temp = setTimeout("log()", 1000); }</script><style>.transfer {
+		top:50%;
+		left:50%;
+		margin:-50px 0 0 -100px;
+		position: absolute;
+		width:200px;
+		height:100px;
+		line-height: 100px;
+		text-align: center;
+		color:#ff0048;
+		font-size: 1.6rem;
+	}</style><!-- device 自動轉址 end --><body><!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]--><div id=redirect class=transfer>轉址中...</div><!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --><script>(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-46156286-7');ga('send','pageview');</script><script src=scripts/d41d8cd9.plugins.js></script>
