@@ -1,0 +1,15 @@
+---
+title: 東森新聞雲-運動雲頻道改版
+subtitle: 運動雲頻道改版設計及切版。
+layout: default
+modal-id: 6
+date: 2015-05-28
+img: sportCloud.png
+thumbnail: sportCloud-thumbnail.png
+alt: image-alt
+project-date: 2015/05
+website: http://gnux123.github.io/sportCloud/
+client: www.etttoday.net
+category: webDesign
+description: 利用兩週共14個工作天，完成了運動雲全頻道頁面設計及切版。
+---
