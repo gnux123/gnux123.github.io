@@ -1,0 +1,15 @@
+---
+title: 森森百貨手機版介面
+subtitle: 森森百貨手機版頁面切版設計。
+layout: default
+modal-id: 8
+date: 2013-12-19
+img: umallMobile.png
+thumbnail: umallMobile-thumbnail.png
+alt: image-alt
+project-date: 2013/12
+website: http://gnux123.github.io/umallMobile/
+client: www.u-mall.com.tw
+category: webDesign
+description: 森森百貨手機版改版首頁頁面設計。 
+---

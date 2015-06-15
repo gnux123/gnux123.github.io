@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1">
+<!--行動裝置顯示設定-->
+<title>森森購物網行動版</title>
+<link rel="stylesheet" type="text/css" href="css/mobile.css">
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/umallmobile.js"></script>
+<script type="text/javascript" src="js/iscroll-lite.js"></script>
+<script type="text/javascript">
+$(function(){
+    detectWindow();
+    $(window).resize(function(){detectWindow();});
+
+    //menus-side
+    var mainW = $(".main").width();
+    $("a.sideBar").each(function(){
+        $(this).on("click",function(){
+            var _hash = $(this).attr("href").split("#")[1];
+           $(".page").toggleClass("active_"+_hash);
+        });
+    });
+
+    function detectWindow(){
+        var _w = $(window).width(),
+            _h = $(window).height();
+        $(".page").css("min-height",_h);
+        $(".page").width(_w);
+        $(".side, .main").height(_h);
+        $("#wrapper").height(_h - 82);
+    }
+});
+
+var myScroll;
+function loaded() {
+    myScroll = new iScroll('wrapper');
+}
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+document.addEventListener('DOMContentLoaded', loaded, false);
+</script>
+</head>
+
+<body>
+<div class="page">
+    <div class="main">
+        <div class="headerZone">
+            <div class="header t_center f_20 f_w">
+                <a href="index.html" target="_self">森森購物網</a>
+                <div class="header_btn_left t_left"><a class="sideBar" href="#leftpanel"></a></div>
+                <div class="header_btn_right t_right"><a class="sideBar" href="#rightpanel"></a></div>
+            </div>
+            <div class="main_search">
+                <div class="search_input f_15"><a href="#">搜尋</a></div>
+                <input type="search" name="" class="search_bar" maxlength="96" placeholder="請輸入關鍵字" />
+            </div>
+        </div>
+        <div id="wrapper">
+        <div class="mainWrap" id="scroller">
+            <div class="index_banner t_center">
+                <div id="mySwipe" class="swipe">
+                    <div class="swipe-wrap">
+                        <div><a href="#"><img src="img/800x300.jpg"/></a></div>
+                        <div><a href="#"><img src="img/800x300(2).jpg"/></a></div>
+                        <div><a href="#"><img src="img/800x300(3).jpg"/></a></div>
+                        <div><a href="#"><img src="img/800x300(4).jpg"/></a></div>
+                        <div><a href="#"><img src="img/800x300(5).jpg"/></a></div>
+                    </div>
+                </div>
+            </div><!--End index_banner-->
+            <div class="index_banner_list bg_w">
+                <ul id="position" class="position">
+                    <li class="on"></li><li></li><li></li><li></li><li></li>
+                </ul>
+            </div><!--End index_banner_list-->
+            <div class="discount_title">天天有折扣</div>
+            <div class="discountWrap">
+                <div class="discount">
+                    <div class="main2">
+                        <div class="discount_groups_s">
+                            <a href="#"><img src="img/product1.jpg"></a><span class="f_r">$931,999</span>
+                        </div>
+                        <div class="discount_groups_s">
+                            <a href="#"><img src="img/product2.jpg"></a><span class="f_r">$931,999</span>
+                        </div>
+                        <div class="discount_groups_s">
+                            <a href="#"><img src="img/product3.jpg"></a><span class="f_r">$931,999</span>
+                        </div>
+                        <div class="discount_groups_s">
+                            <a href="#"><img src="img/product4.jpg"></a><span class="f_r">$931,999</span>
+                        </div>
+                        <div class="discount_groups_s">
+                            <a href="#"><img src="img/product5.jpg"></a><span class="f_r">$931,999</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="index_banner_list" style="display:none;">
+                <ul id="position2" class="position">
+                    <li class="on"></li><li></li><li></li><li></li><li></li>
+                </ul>
+            </div>
+            <div>
+                <ul id="position_control" style="visibility:hidden;">
+                    <li class="prev"></li>
+                    <li class="next"></li>
+                </ul>
+            </div>
+            <ul class="block_menu">
+                <li><a class="tvshop" href="#">電視熱銷</a></li>
+                <li><a class="netShop" href="#">網路熱銷</a></li>
+                <li><a class="bonusZone" href="#">折價券專區</a></li>
+                <li><a class="memberZone" href="#">活動專區</a></li>
+            </ul><!--End block_menu-->
+            <div class="blockLists">
+                <ul>
+                    <li>
+                        <div class="block_1">
+                            <div class="classify c_5_04F">
+                                <div class="classify_title c_2_36F f_w">
+                                    <a href="#">3C專賣</a>
+                                    <div class="s_classify t_right">
+                                        <span><a href="#">季節家電</a></span>
+                                        <span><a href="#">NIKON</a></span>
+                                        <span><a href="#">智慧手機</a></span>
+                                    </div><!--End s_classify-->
+                                </div><!--End classify_title-->
+                            </div><!--End classify-->
+                            <div class="product">
+                                <div class="product_main">
+                                    <div><a href="#" data-ajax="false"><img src="img/product1.jpg"></a><span>$931,999</span></div>
+                                    <div><a href="#" data-ajax="false"><img src="img/product2.jpg"></a><span>$931,999</span></div>
+                                </div>
+                            </div><!--End product-->
+                        </div><!--End block-->                    
+                    </li>
+                    <li>
+                        <div class="block_1">
+                            <div class="classify c_5_E2F">
+                                <div class="classify_title c_2_E6F f_w">
+                                    <a href="#">美妝保養</a>
+                                    <div class="s_classify t_right">
+                                        <span><a href="#">身體保養</a></span>
+                                        <span><a href="#">DR.WU</a></span>
+                                        <span><a href="#">般井生醫</a></span>
+                                    </div><!--End s_classify-->
+                                </div><!--End classify_title-->
+                            </div><!--End classify-->
+                            <div class="product">
+                                <div class="product_main">
+                                    <div><a href="#" data-ajax="false"><img src="img/product1.jpg"></a><span>$931,999</span></div>
+                                    <div><a href="#" data-ajax="false"><img src="img/product2.jpg"></a><span>$931,999</span></div>
+                                </div>
+                            </div><!--End product-->
+                        </div><!--End block-->
+                    </li>
+                    <li>
+                        <div class="block_1">
+                            <div class="classify c_5_742">
+                                <div class="classify_title c_2_864 f_w">
+                                    <a href="#">流行精品</a>
+                                    <div class="s_classify t_right">
+                                        <span><a href="#">COACH</a></span>
+                                        <span><a href="#">珠寶/玉石</a></span>
+                                        <span><a href="#">專櫃飾品</a></span>
+                                    </div><!--End s_classify-->
+                                </div><!--End classify_title-->
+                            </div><!--End classify-->
+                            <div class="product">
+                                <div class="product_main">
+                                    <div><a href="#" data-ajax="false"><img src="img/product1.jpg"></a><span>$931,999</span></div>
+                                    <div><a href="#" data-ajax="false"><img src="img/product2.jpg"></a><span>$931,999</span></div>
+                                </div>
+                            </div><!--End product-->
+                        </div><!--End block-->
+                    </li>
+                    <li>
+                        <div class="block_1">
+                            <div class="classify c_5_F33">
+                                <div class="classify_title c_2_F66 f_w">
+                                    <a href="#">服飾鞋包</a>
+                                    <div class="s_classify t_right">
+                                        <span><a href="#">流行女裝</a></span>
+                                        <span><a href="#">專櫃內衣</a></span>
+                                        <span><a href="#">超值任選</a></span>
+                                    </div><!--End s_classify-->
+                                </div><!--End classify_title-->
+                            </div><!--End classify-->
+                            <div class="product">
+                                <div class="product_main">
+                                    <div><a href="#" data-ajax="false"><img src="img/product1.jpg"></a><span>$931,999</span></div>
+                                    <div><a href="#" data-ajax="false"><img src="img/product2.jpg"></a><span>$931,999</span></div>
+                                </div>
+                            </div><!--End product-->
+                        </div><!--End block-->
+                    </li>
+                    <li>
+                        <div class="block_1">
+                            <div class="classify c_5_690">
+                                <div class="classify_title c_2_8B0 f_w">
+                                    <a href="#">旅遊美食</a>
+                                    <div class="s_classify t_right">
+                                        <span><a href="#">東北亞</a></span>
+                                        <span><a href="#">自由行</a></span>
+                                        <span><a href="#">大陸/港澳</a></span>
+                                    </div><!--End s_classify-->
+                                </div><!--End classify_title-->
+                            </div><!--End classify-->
+                            <div class="product">
+                                <div class="product_main">
+                                    <div><a href="#" data-ajax="false"><img src="img/product1.jpg"></a><span>$931,999</span></div>
+                                    <div><a href="#" data-ajax="false"><img src="img/product2.jpg"></a><span>$931,999</span></div>
+                                </div>
+                            </div><!--End product-->
+                        </div><!--End block-->
+                    </li>
+                    <li>
+                        <div class="block_1">
+                            <div class="classify c_5_F70">
+                                <div class="classify_title c_2_F90 f_w">
+                                    <a href="#">生活居家</a>
+                                    <div class="s_classify t_right">
+                                        <span><a href="#">生活百貨</a></span>
+                                        <span><a href="#">推薦品牌</a></span>
+                                        <span><a href="#">衛廚收納</a></span>
+                                    </div><!--End s_classify-->
+                                </div><!--End classify_title-->
+                            </div><!--End classify-->
+                            <div class="product">
+                                <div class="product_main">
+                                    <div><a href="#" data-ajax="false"><img src="img/product1.jpg"></a><span>$931,999</span></div>
+                                    <div><a href="#" data-ajax="false"><img src="img/product2.jpg"></a><span>$931,999</span></div>
+                                </div>
+                            </div><!--End product-->
+                        </div><!--End block-->
+                    </li>
+                </ul>
+            </div>
+
+            <div class="copyright">
+                <a href="#">電腦版</a><span>|</span>服務條款<span>|</span>隱私權政策<br />
+            森森百貨股份有限公司 版權所有
+            </div>
+        </div>            
+        </div>
+    </div>
+    <div class="side sideLeft" id="leftpanel">
+        <div class="panel">
+            <div class="searchZone">
+                <input type="text" value="請輸入關鍵字...">
+            </div>
+            <p class="navi_title f_15">全站商品分類</p>
+            <ul class="panel_list f_17">
+                <li class="navi_red"><a href="#">電視購物</a></li>
+                <li class="navi_red"><a href="#">快速到貨</a></li>
+                <li class="navi_purple"><a href="#">美妝</a></li>
+                <li class="navi_purple"><a href="#">保健</a></li>
+                <li class="navi_pink"><a href="#">內塑衣</a></li>
+                <li class="navi_pink"><a href="#">服飾</a></li>
+                <li class="navi_pink"><a href="#">鞋包</a></li>
+                <li class="navi_brown"><a href="#">精品珠寶</a></li>
+                <li class="navi_blue"><a href="#">3C</a></li>
+                <li class="navi_blue"><a href="#">家電</a></li>
+                <li class="navi_blue"><a href="#">手機相機</a></li>
+                <li class="navi_blue"><a href="#">旅遊</a></li>
+                <li class="pl_5_8B0"><a href="#">美食</a></li>
+                <li class="pl_5_F90"><a href="#">居家</a></li>
+                <li class="pl_5_F90"><a href="#">婦幼</a></li>
+                <li class="pl_5_F90"><a href="#">運動│車</a></li>
+                <li class="pl_5_F90"><a href="#">傢俱寢飾</a></li>
+            </ul><!--End panel_list-->
+        </div><!--End panel-->        
+    </div>
+    <div class="side sideRight" id="rightpanel">
+        <p class="navi_title f_15">會員服務</p>
+        <ul class="memberService">
+            <li><a href="#">會員登入/註冊</a></li>
+            <li><a href="#">我的優惠&折價券兌換</a></li>
+            <li>
+                <ul class="memberToolbar">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-file-text fa-2x"></i>
+                            <span>交易記錄</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-star fa-2x"></i>
+                            <span>我的收藏</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-edit fa-2x"></i>
+                            <span>修改資料</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <p class="navi_title f_15">其他</p>
+        <ul class="otherService">
+            <li><a href="#">切換至電腦版</a></li>
+            <li><a href="#">用戶指南</a></li>
+            <li><a href="#">我要退貨</a></li>
+            <li><a href="#">聯繫客服</a></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="js/swipe.js"></script>
+</body>
+</html>
