@@ -8,7 +8,7 @@ img: umallTV_appWeb.png
 thumbnail: umallTV_appWeb-thumbnail.png
 alt: image-alt
 project-date: 2015/03
-website:http://gnux123.github.io/u-mall/
+website: http://gnux123.github.io/u-mall/
 client: www.u-mall.tv
 category: webDesign
 description: 樂購森活官網設計，符合RWD設計。 
