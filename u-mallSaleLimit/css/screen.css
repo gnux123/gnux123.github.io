@@ -1,0 +1,72 @@
+/* screen.css by sensengo vincent.sue */
+div.whole_wrap { position:relative; left:50%; width:990px; height:auto; margin-left:-495px; }
+div.saleLimt_main, div.saleLimt_side { height:647px; }
+div.saleLimt_main { width:658px; }
+div.saleLimt_side { width:332px; }
+div.saleLimt_side .side_main { iwdth:332px; height:570px; }
+div.saleLimt_side .side_mainContent { margin-left:11px; width:295px; height:570px; }
+div.saleLimt_main .main_content { width:658px; height:419px; }
+div.saleLimt_main .main_moduleWrap { margin:0 0 0 26px; width:597px; height:419px; }
+
+/** main_content **/
+div.saleLimt_main .main_pic { margin:8px 0 0 15px; width:300px; height:auto; }
+div.saleLimt_main .main_detail { margin-top:8px; width:282px; height:auto; }
+div.main_moduleWrap .mainModule_top { height:30px; padding:0 5px 0 8px; }
+div.main_moduleWrap .mainModule_top span { display:block; height:30px; line-height:30px; }
+div.main_pic img { width:296px; height:296px; border:2px solid #362e2b; }
+div.main_icon { position:absolute; margin:-8px 0 0 -8px; padding:8px 0 0 7px; z-index:5; width:142px; height:144px; }
+div.main_icon span { display:block; }
+div.main_notice { margin:5px 0 0 0; }
+
+div.mainPrice_btn { z-index:6; width:313px; height:113px;}
+div.mainPrice_btn .price_area { float:left; margin:10px 0 0 10px; }
+span.btn_area a { display:block; margin:10px 0 0 0; width:309px; height:36px; }
+
+
+div.main_otherDetail { margin:10px 0 0 5px; }
+div.main_otherDetail ul, div.main_otherDetail ul li { list-style:none; }
+div.main_otherDetail ul { margin:0; padding:0; width:272px; height:auto; }
+div.main_otherDetail ul li { list-style:none; padding:10px 0 10px 0; }
+div.main_otherDetail ul li div { margin-left:5px; }
+div.main_otherDetail ul li:first-child { padding:0; }
+
+
+/** push_module **/
+div.push_module { margin:12px 5px 0 5px; width:285px; height:130px; }
+div.push_module .push_content { display:block; margin-left:5px; width:280px; height:130px; }
+div.push_module .push_icon { position:absolute; z-index:2; margin:4px 0 0 -8px; *margin:4px 0 0 -172px !important; width:72px; height:60px; }
+div.push_module .push_priceTexts { width:165px; height:auto;}
+div.push_module .push_pic { margin:10px 5px 0 0; background:#fff; }
+div.push_module .push_pic, div.push_pic img { width:110px; height:110px; } 
+div.push_icon span { float:left; margin:3px 0 0 7px; }
+
+div.push_module .Pprice { margin:10px 0 0 67px; }
+div.push_module .Ptexts { margin:15px 0 0 10px; height:30px; *height:28px !important; overflow:hidden; }
+div.push_module .spricePrice { margin:5px 0 0 5px; }
+
+div.shop_time { width:100%; height:20px; }
+
+
+/** prods_content **/
+div.prods_content { float:left; margin:20px 15px 10px 15px; width:960px; height:auto; }
+div.prods_content .prodsCTitle { width:960px; height:61px; }
+div.prods_content .prodsCTitle h2 { position:absolute; margin:10px 0 0 5px; width:370px; height:60px; line-height:60px; overflow:hidden; }
+
+div.cateMenu_tabs { float:right; z-index:4; width:545px; height:30px; margin:38px 0 0 0; }
+div.cateMenu_tabs { *position:absolute !important; *margin:38px 0 0 415px !important; } /* IE7 */
+div.cateMenu_tabs ul { margin:0; padding:0; }
+div.cateMenu_tabs ul li { float:left; list-style:none; height:15px; padding:0 6px 0 6px; }
+div.cateMenu_tabs ul li a { display:block; width:65px; overflow:hidden; }
+
+div.prodsMain_content ul, div.prodsMain_content ul li { list-style:none; }
+div.prodsMain_content ul { margin:10px 0 0 10px; padding:0; }
+div.prodsMain_content ul li { float:left;  margin:0 10px 10px 0;}
+
+/** prods_moudle **/
+div.prods_module { width:180px; height:265px; overflow:hidden;}
+div.prods_module .pushTexts, div.prods_module .prods_pic { display:block; margin:0 10px 0 10px; }
+div.prods_module .pushTexts { height:25px; }
+div.prods_module .pushTexts { height:25px; line-height:25px; overflow:hidden; }
+div.prods_module .prods_pic, div.prods_module .prods_pic img { width:160px; height:160px; }
+div.prods_module .prods_sname { margin:10px 0 0 0; padding:5px 5px 0 5px; width:170px; height:70px; }
+div.prods_module .mainSname { display:block; height:30px; *height:28px !important; overflow:hidden; }

@@ -1,0 +1,659 @@
+/*-- Base --*/
+
+/*body  { font-family:  "微軟正黑體","Microsoft JhengHei","Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;line-height: normal; text-align:left;}*/
+
+body  {  font-family: Arial, Helvetica, sans-serif, "新細明體", "Lucida Grande", "Lucida Sans Unicode", ; line-height: normal; text-align:left; vertical-align: middle;}/**/
+
+a     { text-decoration: none;color:#0096db;}
+a:focus, 
+a:hover, 
+a:active { text-decoration: underline;}
+
+.center          { text-align: center }
+.left            { float:left}
+img              { vertical-align:middle;}
+.clear           { clear:both;}
+.none_space      { margin:0;}
+
+
+/*-- CIS Color Background --*/
+
+/**/
+.basic_color_bg  { background:#f01400; }
+.none_color_bg   { background:#d5cfd1; }
+.yellow_bg       { background:#ffc000; }
+.sky_bg          { background:#71d0e0; }
+.pink_bg         { background:#ff74ab; }
+.green_bg        { background:#a3d427; }
+.brown_bg        { background:#e2a158; }
+.light_yellow_bg { background:#fffde5; }
+.white_bg        { background:#fff; }
+
+/*-- CIS Hover Background --*/
+a.on_yellow:hover  { background:#fff46f;}
+
+/*-- Badge on AD --*/
+.badge_blue    { background: url(../demo_image/icons/badge_blue.png) no-repeat left top; }
+.badge_green   { background: url(../demo_image/icons/badge_green.png) no-repeat left top; }
+.badge_orange  { background: url(../demo_image/icons/badge_orange_1.png) no-repeat left top; }
+.badge_orange_1  { background: url(../demo_image/icons/badge_orange.png) no-repeat left top; }
+.badge_purple  { background: url(../demo_image/icons/badge_purple.png) no-repeat left top; }
+
+.color_demo_cube { 
+    width:80px; 
+	height:80px; 
+	display:block; 
+	float:left; 
+	padding:10px; 
+	text-align:center;
+	}
+
+/*-- Web Color Border --*/
+
+/**/
+.basic_border   { border:1px solid #f01400 }
+.web_border     { border:1px solid #d5cfd1 }
+.dblue_border   { border:1px solid #2158aa }
+.pic_border_w   { border:2px solid #ffffff }
+.web_border_bot { border-bottom:2px solid #d5cfd1 }
+/**/
+.web_border_dotted    { border-top:2px dotted #d5cfd1;
+                        border-bottom:2px dotted #d5cfd1 }
+/**/
+.yellow_border  { border:1px solid #ffc000 }
+.sky_border     { border:1px solid #71d0e0 }
+.pink_border    { border:1px solid #ff74ab }
+.green_border   { border:1px solid #a3d427 }
+.brown_border   { border:1px solid #e2a158 }
+
+/**/
+.yellow_bot     { background: url(../demo_image/bot_up.gif) repeat-x left -1px;}
+.sky_bot        { background: url(../demo_image/bot_up.gif) repeat-x left -6px;}
+.pink_bot       { background: url(../demo_image/bot_up.gif) repeat-x left -11px;}
+.green_bot      { background: url(../demo_image/bot_up.gif) repeat-x left -16px;}
+.brown_bot      { background: url(../demo_image/bot_up.gif) repeat-x left -21px;}
+
+/*-- CIS Color Font --*/
+.f_basic {color:#f01400;}/**CIS MAIN COLOR**/
+.f_web_r {color:#7d0000;}
+.f_web   {color:#362e2b;}
+.f_web_light   {color:#888888;}
+.f_web_w {color:#ffffff;}/**COLOR WHITE**/
+.f_web_y {color:#ffff00;}/**COLOR YELLOW**/
+.f_web_o {color:#ff6600;}/**COLOR ORANGE**/
+.f_web_b {color:#1176e8; }/**COLOR BLUE**/
+
+/*-- Web Color Link --*/
+a.dotted_link          { border-bottom:1px dotted #362e2b}
+a.dotted_link:hover    { border-bottom:1px dotted #362e2b}
+/**/
+a.web_link             { color:#0096db }
+a.web_link:hover       { text-decoration:underline;}
+a.web_link_none        { color:#0096db }
+a.web_link_none:hover  { text-decoration:none;}
+/**/
+a.web_link_light_none        { color:#888888 }
+a.web_link_light_none:hover  { text-decoration:none;}
+
+/*-- Dark Color Link --*/
+a.dark_link             { color:#362e2b }
+a.dark_link:hover       { text-decoration:underline;}
+a.dark_link_none        { color:#362e2b }
+a.dark_link_none:hover  { text-decoration:none;}
+
+/*-- Light Color Link --*/
+a.light_link            { color:#fff }
+a.light_link:hover      { text-decoration:underline;}
+a.light_link_none       { color:#fff }
+a.light_link_none:hover { text-decoration:underline;}
+
+.weight_link            { font-weight:normal}
+.weight_link:hover      { font-weight: bold }
+
+/*-- Space Line --*/
+.line_v { background:url(../demo_image/line_vertical_dark.gif) no-repeat center top; 
+   float:left; 
+   width:5px;
+   height:18px;
+}
+
+.line_v_i { background:url(../demo_image/line_vertical_dark.gif) no-repeat center 5px;  
+   width:5px;
+   height:15px;
+   float:left;
+}
+
+.line_v_light { background:url(../demo_image/line_vertical_light.gif) no-repeat center top; 
+   float:left; 
+   width:5px;
+   height:18px;
+}
+
+.line_dotted_v { 
+background:url(../demo_image/dotted_v.gif) repeat-x left 4px;
+_background:url(../demo_image/dotted_v.gif) repeat-x left 0px;
+}
+.line_dotted_h_s { background:url(../demo_image/dotted_h_s.gif) no-repeat;}
+
+
+/*-- Forms --*/
+fieldset { padding:1.4em; margin: 0 0 1.5em 0; border: 1px solid #ccc; }
+legend { font-weight: bold; font-size:1.2em; }
+label { font-weight: bold; }
+textarea, input[type='text'], input[type='password'], select { border: 1px solid #ccc; background: #fff; }
+textarea:hover, input[type='text']:hover, input[type='password']:hover, select:hover { border-color: #aaa; }
+/*textarea:focus, input[type='text']:focus, input[type='password']:focus, select:focus { border-color: #888; outline: 1px solid #ffffaa; }*/
+/*input, select { cursor: pointer; }*/
+input[type='text'],input[type='password'] { cursor: text; }
+input[type='text']:hover,input[type='password']:hover { cursor: text; }
+
+
+/*-- List Style --*/
+ol,ul    { margin-left:2em;}
+ol li    { list-style: decimal outside;	}
+ul li    { list-style: disc outside; }
+
+/*-- Basic Font Size --*/
+h1,h2,h3,p { margin:5px 0;}
+h1,h2,h3,h4,h5,h6,b,strong {
+	  /*font-family: "Microsoft YaHei";*/
+	  letter-spacing: normal;
+	  font-weight:bold;
+
+}
+
+/*-- FONT --*/
+.f_xx-small     {font-size:xx-small;}
+.f_x-small      {font-size:x-small;}
+.f_x-large      {font-size:x-large;}
+.f_xx-large     {font-size:xx-large ;}
+
+.fw_bold        {font-weight:bold;}
+.fw_light       {font-weight:lighter;}
+
+/*.f_small        {font-size:small;}
+.f_smaller      {font-size:smaller;}
+.f_medium       {font-size:medium;}
+.f_large        {font-size:large;}
+.f_larger       {font-size:larger;}*/
+ 
+.f_8  {font-size:50%;} /* for setting 6pt 8px 0.5em */
+.f_9  {font-size:55%;} /* for setting7pt 9px 0.55em */ 
+.f_10 {font-size:62.5%;}/* for setting 7.5pt 10px 0.625em */
+.f_11 {font-size:70%;} /* for setting 8pt 11px 0.7em */
+p,
+.f_12 {font-size:75%;} /* for setting 9pt 12px 0.75em*/
+.f_13 {font-size:80%;} /* for setting 10pt 13px 0.8em */
+h3,
+.f_14 {font-size:87.5%;} /* for setting 10.5pt 14px 0.875em */
+.f_15 {font-size:95%;} /* for setting 11pt 15px 0.95em */
+h2,
+.f_16 {font-size:100%;} /* for setting12pt 16px 1em  */
+.f_17 {font-size:105%;} /* for setting13pt 17px 1.05em  */
+h1,
+.f_18 {font-size:112.5%;} /* for setting 13.5pt 18px 1.125em */
+.f_19 {font-size:120%;} /* for setting 14pt 19px 1.2em */
+.f_20 {font-size:125%;} /* for setting 14.5pt 20px 1.25em */
+.f_21 {font-size:130%;} /* for setting15pt 21px 1.3em  */
+.f_22 {font-size:140%;} /* for setting16pt 22px 1.4em  */
+.f_23 {font-size:145%;} /* for setting17pt 23px 1.45em */
+.f_24 {font-size:150%;} /* for setting18pt 24px 1.5em  */
+.f_25 {font-size:155%;} /* for setting18pt 25px 1.55em */
+.f_26 {font-size:160%;} /* for setting 20pt 26px 1.6em */
+
+
+
+.f_29 {font-size:180%;} /* for setting 22pt 29px 1.8em */
+.f_32 {font-size:200%;} /* for setting 24pt 32px 2em */
+.f_35 {font-size:220%;} /* for setting 26pt 35px 2.2em */
+.f_36 {font-size:225%;} /* for setting 27pt 36px 2.25em  */
+.f_37 {font-size:230%;} /* for setting 28pt 37px 2.3em  */
+.f_38 {font-size:235%;} /* for setting 29pt 38px 2.35em */ 
+.f_40 {font-size:245%;} /* for setting 30pt 40px 2.45em  */
+.f_42 {font-size:255%;} /* for setting 32pt 42px 2.55em */ 
+.f_45 {font-size:275%;} /* for setting 34pt 45px 2.75em */ 
+.f_48 {font-size:300%;} /* for setting 36pt 48px 3em */ 
+.f_49 {font-size:320%;} /* for setting 36pt 48px 3em */ 
+.f_50 {font-size:340%;} /* for setting 36pt 48px 3em */ 
+
+
+/*-- TEXT --*/
+.t_italic     {font-style: italic;} 
+.t_del        {text-decoration: line-through;} 
+.t_overline   {text-decoration: overline;} 
+.t_underline  {text-decoration: underline;} 
+.t_none       {text-decoration: none;} 
+
+.t_first      {text-transform: capitalize;} 
+.t_capital    {text-transform: uppercase;}
+.t_lower      {text-transform: lowercase;} 
+
+.t_sub        {vertical-align: sub;}
+.t_super      {vertical-align: super;} 
+.t_break      {word-wrap: break-word;} 
+.t_break-all  {word-wrap: break-word; word-break: break-all;} 				   			   
+.t_nowrap     {white-space: nowrap;}
+ 
+.t_space      {letter-spacing:2px;}
+
+/*-- TW Font --*/
+.tws_dfkai-sb       {  font-family: "dfkai-sb", "標楷體" ;} 
+.tws_simhei         {  font-family: "simhei"; } 
+.tws_simsun         {  font-family: "simsun"; } 
+.tws_pmingliu       {  font-family: "pmingliu", "新細明體"; } 
+
+/*-- EN Font on Dreamweaver --*/
+.ens_monospace      {  font-family: monospace} 
+.ens_courier        {  font-family: Courier } 
+.ens_geneva         {  font-family: Geneva } 
+.ens_helvetica      {  font-family: Helvetica }
+.ens_georgia        {  font-family: Georgia} 
+.ens_arial          {  font-family: Arial } 
+.ens_sans-serif     {  font-family: sans-serif } 
+.ens_courier_new    {  font-family: Courier New }
+.ens_times_new      {  font-family: Times New Roman} 
+.ens_times          {  font-family: Times } 
+.ens_serif          {  font-family: serif } 
+
+/*-- EN Font Other Use --*/
+.ens2_optima         {  font-family: optima }
+.ens2_impact         {  font-family: Impact }
+.ens2_palatino       {  font-family: Palatino }
+.ens2_century        {  font-family: Century Gothic }
+.ens2_gill           {  font-family: Gill Sans}
+.ens2_bodoni         {  font-family: bodoni }
+.ens2_tahoma         {  font-family: Tahoma }
+.ens2_lucida         {  font-family: Lucida Grande }
+.ens2_comic          {  font-family: Comic Sans MS }
+
+
+/*-- Align --*/
+.left { float:left;}
+.right { float:right;}
+.a_right{text-align: right;} 
+.a_left{text-align: left;} 
+.a_center{text-align: center;} 
+.a_justify{
+    text-align:justify;
+    text-justify :distribute-all-lines;
+	}
+
+
+a.web_but{
+   display: block;
+   float: left;
+   line-height: 12px; 
+   height: 17px; 
+   padding-left: 15px; 
+   text-decoration: none;
+   margin:3px 2px;
+   cursor:pointer;
+}
+
+
+a.cart_but{
+   display: block;
+   float: left;
+   line-height: 18px; 
+   height: 30px; 
+   padding-left: 34px; 
+   text-decoration: none;
+   margin:3px 2px;
+   cursor:pointer;
+}
+/**/
+a.search_but{
+   display: block;
+   float: left;
+   line-height: 11px !important;
+   height: 21px; 
+   padding-left: 9px; 
+   text-decoration: none;
+   margin:0;
+   cursor:pointer;
+}
+
+a:link.web_but, 
+a:visited.web_but, 
+a:active.web_but,
+a:link.cart_but, 
+a:visited.cart_but, 
+a:active.cart_but{
+   color: #ffffff; /*button text color*/
+}
+/**/
+a.search_but span{
+   display: block;
+   padding: 6px 8px 6px 0; 
+}
+a.web_but span{
+   display: block;
+   padding: 3px 5px 2px 0; 
+}
+
+
+a.cart_but span{
+   display: block;
+   padding: 6px 8px 6px 0; 
+}
+
+/**/
+a:link.search_but, 
+a:visited.search_but, 
+a:active.search_but{
+   color: #362e2b; 
+}
+a.search_but:hover{ 
+   color: #f01400;
+   text-decoration: none;
+}
+
+a.web_but:hover,
+a.cart_but:hover{ 
+   background-position: left bottom ;
+   text-decoration: none;
+}
+a.web_but:hover span,
+a.cart_but:hover span
+{ /* Hover state CSS */
+   background-position: right bottom ;
+   color: #ffff00;
+}
+
+
+a.tools_but, a.tools_video{
+   display: block;
+   float: left;
+   line-height: 16px; 
+   height: 16px; 
+   padding-left: 25px; 
+   text-decoration: none;
+   margin:3px 2px;
+   cursor:pointer;
+}
+
+/**/
+
+a.tools_but span, a.tools_video span {
+   display: block;
+   padding: 0; 
+}
+a.tools_but:hover{ 
+   background-position: left -16px ;
+   color: #362e2b;
+}
+
+a.tools_video:hover {
+   color: #362e2b;
+}
+
+
+/**/
+
+.disable_but span{
+   display: block;
+   padding: 6px 8px 6px 0; 
+}
+
+.disable_but{
+   display: block;
+   float: left;
+   line-height: 18px; 
+   height: 30px; 
+   padding-left: 34px; 
+   text-decoration: none;
+   margin:3px 2px;
+   color: #ffff00;
+}
+
+
+/**/
+a.but_zoom{
+   background: url('../demo_image/button/zoom_but.png') no-repeat left top;
+}
+/*a.but_zoom span{
+   background: transparent url('../demo_image/button/zoom_but.png') no-repeat left -16px ;
+}*/
+
+/**/
+
+a.but_video {
+    background: url("../demo_image/icon_new.gif") left center no-repeat;
+}
+
+.but_white{
+   background: url('../demo_image/button/search-left.gif') no-repeat left top ;
+}
+.but_white span{
+   background: transparent url('../demo_image/button/search-right.gif') no-repeat right top ;
+}
+
+/**/
+
+.but_nonesale_dblue{
+   background: url('../demo_image/button/dblue-left_nonesale.gif') no-repeat left top ;
+}
+.but_nonesale_dblue span{
+   background: transparent url('../demo_image/button/dblue-right_nonesale.gif') no-repeat right top ;
+}
+
+a.but_buy_dred{
+   background: url('../demo_image/button/dred-left_buy.gif') no-repeat left top ;
+}
+a.but_buy_dred span{
+   background: transparent url('../demo_image/button/dred-right_buy.gif') no-repeat right top ;
+}
+
+a.but_cart_black{
+   background: url('../demo_image/button/black-left_cart.gif') no-repeat left top ;
+}
+a.but_cart_black span{
+   background: transparent url('../demo_image/button/black-right_cart.gif') no-repeat right top ;
+}
+
+
+/**/
+a.but_dred{
+   background: url('../demo_image/button/dred-left.gif') no-repeat left top;
+}
+a.but_dred span{
+   background: transparent url('../demo_image/button/dred-right.gif') no-repeat right top;
+}
+
+a.but_black{
+   background: url('../demo_image/button/black-left.gif') no-repeat left top;
+}
+a.but_black span{
+   background: transparent url('../demo_image/button/black-right.gif') no-repeat right top;
+}
+
+
+/*BUT DEMO*/
+
+a.web_but_demo{
+   display: block;
+   float: left;
+   line-height: 16px; 
+   height: 24px; 
+   padding-left: 11px; 
+   text-decoration: none;
+   margin:5px;
+}
+a:link.web_but_demo, a:visited.web_but_demo, a:active.web_but_demo{
+   color: #494949; /*button text color*/
+}
+
+a.web_but_demo span{
+   display: block;
+   padding: 4px 11px 4px 0; 
+}
+
+a.web_but_demo:hover{ 
+   background-position: left bottom;
+}
+a.web_but_demo:hover span{ /* Hover state CSS */
+   background-position: right bottom;
+   color: black;
+}
+
+a.but_gray{
+   background: url('../demo_image/button/styleA/gray-left.gif') no-repeat left top;
+}
+a.but_gray span{
+   background: transparent url('../demo_image/button/styleA/gray-right.gif') no-repeat right top;
+}
+a.but_red{
+   background: url('../demo_image/button/styleA/red-left.gif') no-repeat left top;
+}
+a.but_red span{
+   background: transparent url('../demo_image/button/styleA/red-right.gif') no-repeat right top;
+}
+a.but_blue{
+   background: url('../demo_image/button/styleA/blue-left.gif') no-repeat left top;
+}
+a.but_blue span{
+   background: transparent url('../demo_image/button/styleA/blue-right.gif') no-repeat right top;
+}
+a.but_green{
+   background: url('../demo_image/button/styleA/green-left.gif') no-repeat left top;
+}
+a.but_green span{
+   background: transparent url('../demo_image/button/styleA/green-right.gif') no-repeat right top;
+}
+a.but_orange{
+   background: url('../demo_image/button/styleA/orange-left.gif') no-repeat left top;
+}
+a.but_orange span{
+   background: transparent url('../demo_image/button/styleA/orange-right.gif') no-repeat right top;
+}
+
+/*PRO BOARD*/
+.pro120_content{
+	width:150px;
+	height:240px;
+	float:left;
+	overflow:hidden;
+	border-top:0px;
+}
+
+.pro120_pro{
+	width:150px;
+	padding:7px 0;
+	float:left;
+}
+
+.pro120_pro img{
+	width:120px;
+	height:120px;
+	margin:0 auto;
+}
+.pro120_event{
+	width:144px;
+	height:15px;
+	padding:2px 3px 0px 3px;
+	margin-bottom:4px;
+	float:left;
+	overflow:hidden;
+}
+.pro120_name{
+	width:144px;
+	height:35px;
+	line-height:18px;
+	padding:0px 3px;
+	float:left;
+	overflow:hidden;
+}
+.pro120_price{
+	width:144px;
+	height:15px;
+	float:left;
+	padding:3px 3px;
+	white-space: nowrap;
+	/*overflow:hidden;*/
+}
+.pro120_but{
+	width:150px;
+	height:20px;
+	float:left;
+	padding-top:2px;
+	margin:0 auto;
+}
+
+.pro120_but div{
+	float:none;
+	clear:both;
+    *display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+}
+
+
+/*16X16 ICONS*/
+.icons_16{
+	float:left;
+	width:16px;
+	height:16px;
+	display:block;
+	background:url(../demo_image/icons/icon_up.png) no-repeat;
+}
+
+.arrow_blue{ background-position:0 1px}
+.arrow_gray{ background-position: -17px 0}
+.arrow_white{ background-position: -32px 0}
+.ca_tv{ background-position: 0 -16px}
+.star{ background-position: 0 -32px}
+
+/*32X32 ICONS*/
+.icons_32{
+	float:left;
+	width:32px;
+	height:32px;
+	display:block;
+	background:url(../demo_image/icons/icon_up.png) no-repeat;
+}
+.arrow_gray_sd{ background-position: 0 -48px}
+/*32X26 ICONS*/
+.icons_32x26{
+	float:left;
+	width:32px;
+	height:26px;
+	display:block;
+	background:url(../demo_image/icons/icon_up.png) no-repeat;
+}
+.push_star{ background-position: 0 -115px}
+.push_crown{ background-position:-32px -115px}
+
+
+/*32X16 ICONS*/
+.icons_32X16{
+	float:left;
+	width:32px;
+	height:16px;
+	display:block;
+	background:url(../demo_image/icons/icon_up.png) no-repeat;
+}
+.mail_dblue{ background-position: 0 -88px}
+
+/* TABLE FRAMEWORKS */
+.table_mode0, .table_mode1, .table_mode2, .table_mode3 { width:100%; text-align:center; background:#fff;}
+.table_mode0 tr td, .table_mode1 tr td, .table_mode2 tr td, .table_mode3 tr td { padding:5px; vertical-align:middle; font-size:75%;}
+.table_mode_gray { background:#e5e5e5;}/*淺灰*/
+.table_mode_dgray { background:#d5cfd1;}/*深灰*/
+.table_mode_yellow { background:#ffe56d;}/*黃色*/
+.table_mode_border tr td { border:1px solid #d5cfd1; border-right:none;} /*框線樣式1*/
+.table_mode_border1 tr td { border:1px solid #d5cfd1;} /*框線樣式2*/
+.table_mode_border tr td:first-child { border-left:0px;}
+.table_mode1 thead tr td, .table_mode1 tfoot tr td { background:#e5e5e5;}
+.table_mode2 thead tr td { background:#ffe56d; border:1px solid #ffe56d;}
+.table_mode2 tfoot tr td { background:#e5e5e5;}
+.table_mode3 thead tr td { background:#d5cfd1;}
+.table_mode3 tbody tr td:first-child { background:#e5e5e5;}
+
+
+
+/* breads */
+div.breads { padding:5px 0 0 0;}
+
+.dollar_sign { font-size:12px;}

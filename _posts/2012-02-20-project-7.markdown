@@ -1,0 +1,15 @@
+---
+title: 森森百貨-限時搶購
+subtitle: 森森百貨電子商務頁面切版設計。
+layout: default
+modal-id: 7
+date: 2012-02-20
+img: umall-SaleLimt.png
+thumbnail: umall-SaleLimt-thumbnail.png
+alt: image-alt
+project-date: 2012/02
+website: http://gnux123.github.io/u-mallSaleLimit/
+client: www.u-mall.com.tw
+category: webDesign
+description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+---

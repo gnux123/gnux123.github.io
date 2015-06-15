@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* whole.css by sensengo vincent.sue */
+/* whole.css */
+div.whole_wrap { background:url(../images/whole_bg.gif) top repeat-x; }
+div.saleLimt_side .side_main { background:url(../images/side_moduleWrap_bg.jpg) no-repeat; }
+div.saleLimt_side .side_mainContent { background:#fff; }
+div.saleLimt_main .main_content { background:url(../images/main_content_bg.jpg) no-repeat; }
+div.saleLimt_main .main_moduleWrap { background:#fff; }
+
+/* main_module */
+div.main_icon { background:url(../images/icons/main_icon.png) no-repeat; }
+div.mainPrice_btn { background:url(../images/mainPrice_btn_bg.png) no-repeat;  }
+
+div.main_otherDetail ul li { border-top:1px dotted #362e2b; }
+
+/* table sets */
+table.price_org { width:272px; height:auto; }
+table.price_org tr td { border-left:1px dotted #362e2b; padding:5px; width:85px; text-align:center; }
+table.price_org tr td span { display:block; }
+table.price_org tr td:first-child { border-left:0px; }
+
+div.otherDetail_notice span { display:block; width:100%; }
+div.countdown_area span { display:inline; }
+div.shop_time { line-height:20px; }
+
+/* push_module */
+div.push_module .push_content { background:url(../images/push_module_bg.jpg) no-repeat; }
+div.push_module .push_icon { background:url(../images/icons/push_module_icon.png) no-repeat; }
+div.push_module .Pprice span { display:block; line-height:18px; }
+
+/* prods_content */
+div.pink_active { background:#ff74ab; }
+div.pink_active .prodsCTitle { background:url(../images/cates/pink_activeTitle.jpg) no-repeat; }
+
+div.cateMenu_tabs ul li { border-left:1px solid #fff; }
+div.cateMenu_tabs ul li a { text-align:center; color:#fff; }
+div.cateMenu_tabs ul li a:hover { color:#ff0; font-weight:bold; text-decoration:none; }
+div.cateMenu_tabs ul li:first-child { border-left:0px; }
+
+/* prods_module */
+div.prods_module { background:#362e2b; }
+div.prods_module .prods_sname { background:#fff; }
+div.prods_module .mainSname { vertical-align:middle;}
