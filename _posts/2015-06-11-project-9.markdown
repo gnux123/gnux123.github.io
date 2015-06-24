@@ -2,7 +2,7 @@
 title: 東森新聞雲-運動雲頻道改版
 subtitle: 運動雲頻道改版設計及切版。
 layout: default
-modal-id: 6
+modal-id: 9
 date: 2015-05-28
 img: sportCloud.png
 thumbnail: sportCloud-thumbnail.png
