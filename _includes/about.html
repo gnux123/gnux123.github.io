@@ -12,126 +12,27 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/shinkong.jpg" alt="">
-                            </div>
-
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2019 3月</h4>
-                                    <h4 class="subheading">架構專案襄理／新光人壽股份有限公司</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        負責品牌網站架構規劃設計，及內部系統前後台架構設計、API管理系統架構規劃、創新資料架構應用等專案，以及相關教育訓練規劃發展。
-                                    </p>
-                                </div>
-                            </div>
-                        </li> 
-                        <li class="timeline-image">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/deloitte.jpg" alt="">
-                            </div>
-
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2018 2月</h4>
-                                    <h4 class="subheading">數位轉型顧問／勤業眾信會計師事務所</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        應用系統研究和系統架構規劃設計，並提供產業數位策略轉型及創新數位架構規劃諮詢。
-                                    </p>
-                                </div>
-                            </div>
-                        </li> 
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/newegg.png" alt="">
-                            </div>
-
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2015 7月</h4>
-                                    <h4 class="subheading">前端工程師／臺灣新蛋全球生活網</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        前後台網站架構及活動機制設計，並優化整體網站效能及全瀏覽器使用者體驗。
-                                    </p>
-                                </div>
-                            </div>
-                        </li>                        
-                        <li class="timeline-image">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/umall.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2011 1月</h4>
-                                    <h4 class="subheading">前端工程師／森森百貨股份有限公司</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        購物網站前端架構和活動機制開發設計、創新購物體驗APP設計規劃，和優化整體網站體驗及效能。
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/funk.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2012 3月</h4>
-                                    <h4 class="subheading">前端工程師／ funkDesiner株式會社</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">
-                                        主要負責整體網站維護部分，另外也設計活動機制及抽獎活動等頁面，以及其他展覽手機線上導覽等頁面設計。
-                                    </p>
-                                </div>
-                            </div>
-                        </li>                        
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/sunfar.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2010 3月</h4>
-                                    <h4 class="subheading">順發電腦股份有限公司 活動網頁設計師</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">主要負責工作內容為活動網站及網頁設計</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/shopGo.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2010 8月</h4>
-                                    <h4 class="subheading">立麒多媒體(購物GO) 網站設計師</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">負責網站整體架設及網站活動廣告設計</p>
-                                </div>
-                            </div>
-                        </li>
-
-
-<!--                         <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li> -->
+                        {% for job in site.data.cv %}
+                            {% assign index = forloop.index|modulo:2 %}
+                            {% if index == 1 %}
+                                <li class="timeline-inverted">
+                            {% else %}
+                                <li class="timeline-image">
+                            {% endif %}
+                                    <div class="timeline-image">
+                                        <img class="img-circle img-responsive" src="img/about/{{ job.img }}" alt="">
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4>{{job.startDate}}</h4>
+                                            <h4 class="subheading">{{job.title}}</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p class="text-muted">{{job.des}}</p>
+                                        </div>
+                                    </div>
+                                </li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
