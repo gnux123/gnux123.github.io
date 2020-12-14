@@ -1,0 +1,15 @@
+---
+title: 桂格健康GO
+subtitle: 網站前端規劃設計
+layout: default
+modal-id: 14
+date: 2019-11-06
+img: quarker.png
+thumbnail: quarker-thumbnail.png
+alt: image-alt
+project-date: 2019/11
+website: https://mall.sfworldwide.com/
+client: mall.sfworldwide.com
+category: webDesign
+description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+---

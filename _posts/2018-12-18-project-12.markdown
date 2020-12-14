@@ -1,0 +1,15 @@
+---
+title: DietChain(新加坡)
+subtitle: 食療網站前端開發設計
+layout: default
+modal-id: 12
+date: 2018-12-18
+img: dietchain.png
+thumbnail: dietchain-thumbnail.png
+alt: image-alt
+project-date: 2018/12
+website: https://dietchain.ai/media_content.html?content=15#
+client: cbc.dietchain.ai
+category: webDesign
+description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+---

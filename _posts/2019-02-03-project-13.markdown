@@ -1,0 +1,15 @@
+---
+title: 今周刊活動網站
+subtitle: 網站前端開發設計
+layout: default
+modal-id: 13
+date: 2019-02-03
+img: todaymagevent.png
+thumbnail: todaymagevent-thumbnail.png
+alt: image-alt
+project-date: 2019/02
+website: https://todaymagazine-demo.web.app/
+client: event.businesstoday.com.tw
+category: webDesign
+description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+---

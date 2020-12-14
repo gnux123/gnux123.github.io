@@ -1,0 +1,15 @@
+---
+title: 臺灣新蛋全球生活網
+subtitle: 網站前台架構開發設計
+layout: default
+modal-id: 10
+date: 2015-07-31
+img: newegg.png
+thumbnail: newegg-thumbnail.png
+alt: image-alt
+project-date: 2015/07
+website: http://gnux123.github.io/u-mallSaleLimit/
+client: www.newegg.com.tw
+category: webDesign
+description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+---

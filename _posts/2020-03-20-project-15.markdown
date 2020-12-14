@@ -1,0 +1,15 @@
+---
+title: 人生設計所官方網站
+subtitle: 品牌網站開發設計
+layout: default
+modal-id: 15
+date: 2020-03-20
+img: lifelab.png
+thumbnail: lifelab-thumbnail.png
+alt: image-alt
+project-date: 2020/03
+website: https://lifelab.skl.com.tw/
+client: lifelab.skl.com.tw
+category: webDesign
+description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+---

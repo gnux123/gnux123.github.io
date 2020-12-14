@@ -1,0 +1,15 @@
+---
+title: Bliiq.us
+subtitle: 品牌網站滾動視差開發設計
+layout: default
+modal-id: 11
+date: 2017-02-05
+img: bliiqus.png
+thumbnail: bliiqus-thumbnail.png
+alt: image-alt
+project-date: 2017/02
+website: http://gnux123.github.io/bliiqus/
+client: www.bliiq.us
+category: webDesign
+description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+---
