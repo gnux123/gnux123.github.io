@@ -11,5 +11,5 @@ project-date: 2017/02
 website: http://gnux123.github.io/bliiqus/
 client: www.bliiq.us
 category: webDesign
-description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+description: 利用滾動視差效果完成整體品牌網站設計，提升音響網站品牌價值。 
 ---

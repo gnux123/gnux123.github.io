@@ -1,0 +1,19 @@
+- name: 開源人年會
+  pic: coscup
+  des: 國內開放原始碼年會參與。
+
+- name: 行動科技年會
+  pic: mopcon
+  des: 南台灣最大行動科技年會參與。
+
+- name: webconf年會
+  pic: webconf
+  des: 透過webConf活動，增進及了解最新前端技術。
+
+- name: Yahoo!Open Hack(2012-2013)
+  pic: yahooHack
+  des: 從2012年到2013年連續參加兩年的yahoo open hack day，透過這樣的比賽可以讓自己的技術更加磨練。
+
+- name: HPX每月大聚及小講座
+  pic: hpx
+  des: 透過參與這些大小講座累積相關UI/UX資訊，並將這些資訊轉化並應用在相關工作上面。

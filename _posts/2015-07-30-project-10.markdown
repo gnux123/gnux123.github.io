@@ -11,5 +11,5 @@ project-date: 2015/07
 website: http://gnux123.github.io/u-mallSaleLimit/
 client: www.newegg.com.tw
 category: webDesign
-description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+description: 新蛋電子購物網站前台架構規劃及設計，提升整體網站效能並符合裝置所有使用體驗。 
 ---

@@ -11,5 +11,5 @@ project-date: 2018/12
 website: https://dietchain.ai/media_content.html?content=15#
 client: cbc.dietchain.ai
 category: webDesign
-description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+description: 利用前後端機制搭配符合使用者體驗，達到使用者輕鬆利用網站達到食養療效。 
 ---

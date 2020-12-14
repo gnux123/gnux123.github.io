@@ -11,5 +11,5 @@ project-date: 2019/11
 website: https://mall.sfworldwide.com/
 client: mall.sfworldwide.com
 category: webDesign
-description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+description: 桂格電子商務網站改版，進行前端架構設計規劃，並考量年長者之設計，讓所有裝置均有最佳的瀏覽體驗。 
 ---

@@ -11,5 +11,5 @@ project-date: 2020/03
 website: https://lifelab.skl.com.tw/
 client: lifelab.skl.com.tw
 category: webDesign
-description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+description: 為新光人壽數位轉型品牌官方網站，透過線上預約及活動報名，提升整體新光人壽整體品牌價值。 
 ---

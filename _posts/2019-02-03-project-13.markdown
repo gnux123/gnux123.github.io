@@ -11,5 +11,5 @@ project-date: 2019/02
 website: https://todaymagazine-demo.web.app/
 client: event.businesstoday.com.tw
 category: webDesign
-description: 森森百貨限時搶購頁面切版作業，並提供給程式套版使用。 
+description: 為短期活動網站設計，透過響應式設計可讓使用者在各種環境下方便了解活動內容並進行報名。 
 ---
