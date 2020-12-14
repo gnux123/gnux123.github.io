@@ -1,0 +1,33 @@
+title: It's Nice To Meet You
+subtitle: Graphic Design&nbsp;&nbsp;&nbsp;&nbsp;UI Design&nbsp;&nbsp;&nbsp;&nbsp;WebDesign
+
+skills:
+  - name: 程式編輯
+    icon: fa-code
+    list:
+      - HTML5/CSS3/CSS3 Animation
+      - Sass & Compass Use
+      - NodeJS/NPM
+      - jQuery & Plugin Design
+      - React.js use
+      - Resposive Web Design
+      - Docker&Docker-Compose
+
+  - name: 繪圖設計
+    icon: fa-laptop
+    list:
+      - 熟悉使用Photoshop/Illustrator
+      - sketch.app/Figma
+      - 網站前後端及APP介面設計經驗
+      - 網站購物車/會員中心UI版面設計
+
+  - name: 流程規劃/研究
+    icon: fa-pencil
+    list:
+      - APP UX流程測試及規劃
+      - 前後端架構設計規劃
+      - 網站會員機制規劃設計
+      - 遊戲流程/機制/UI規劃設計
+      - 網站整體CSS架構設計規劃
+      - 易用性研究
+      

@@ -8,49 +8,20 @@
                 </div>
             </div>
             <div class="row text-center">
+                {% for skill in site.data.cover.skills %}
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-code fa-stack-1x fa-inverse"></i>
+                        <i class="fa {{skill.icon}} fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">程式編輯</h4>
+                    <h4 class="service-heading">{{skill.name}}</h4>
                     <p class="text-muted">
-                        HTML5/CSS3/CSS3 Animation<br/>
-                        Sass & Compass Use<br/>
-                        NodeJS/NPM<br/>
-                        jQuery & Plugin Design<br/>
-                        React.js use<br/>
-                        Resposive Web Design<br/>
-                        Docker&Docker-Compose
+                        {% for item in skill.list %}
+                            {{item}}<br/>
+                        {% endfor %}
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">繪圖設計</h4>
-                    <p class="text-muted">
-                        較熟悉使用Photoshop/Illustrator作為設計工具。<br/>
-                        網站前後端及APP介面設計經驗<br/>
-                        網站購物車/會員中心UI版面設計<br/>
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa  fa-pencil fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">流程規劃/研究</h4>
-                    <p class="text-muted">
-                        APP UX流程測試及規劃<br/>
-                        前後端架構設計規劃<br/>
-                        網站會員機制規劃設計<br/>
-                        遊戲流程/機制/UI規劃設計<br/>
-                        網站整體CSS架構設計規劃<br/>
-                        易用性研究
-                    </p>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </section>
